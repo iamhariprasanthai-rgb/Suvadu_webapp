@@ -70,10 +70,12 @@ def create_app(config_name=None):
     from app.routes.auth import auth_bp
     from app.routes.api import api_bp
     from app.routes.main import main_bp
+    from app.routes.payment import payment_bp
     
     app.register_blueprint(auth_bp, url_prefix='/auth')
     app.register_blueprint(api_bp, url_prefix='/api')
     app.register_blueprint(main_bp)
+    app.register_blueprint(payment_bp, url_prefix='/payment')
     
     # Register CLI commands
     from app.cli import register_commands

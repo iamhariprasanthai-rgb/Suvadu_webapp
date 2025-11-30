@@ -8,6 +8,7 @@ import AuthLayout from './components/layout/AuthLayout';
 
 // Landing Page
 import LandingPage from './pages/LandingPage';
+import PricingPage from './pages/PricingPage';
 
 // Auth Pages
 import LoginPage from './pages/auth/LoginPage';
@@ -160,6 +161,9 @@ function App() {
 
       {/* Landing Page - Public */}
       <Route path="/" element={<LandingPage />} />
+      
+      {/* Pricing Page - Public */}
+      <Route path="/pricing" element={<PricingPage />} />
       
       {/* 404 */}
       <Route path="*" element={<Navigate to="/" replace />} />
