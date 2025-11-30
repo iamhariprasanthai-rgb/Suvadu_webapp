@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
+  <defs>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#5FCFC3"/>
+      <stop offset="100%" style="stop-color:#2D5A5A"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Text: Su -->
+  <text x="0" y="38" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#2D4A4A">Su</text>
+  
+  <!-- Left footprint -->
+  <g transform="translate(48, 2) scale(0.22)">
+    <ellipse cx="30" cy="15" rx="8" ry="8" fill="url(#footGrad)"/>
+    <ellipse cx="50" cy="8" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="70" cy="5" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="90" cy="8" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="107" cy="18" rx="6" ry="6" fill="url(#footGrad)"/>
+    <path d="M25,35 C15,60 20,120 45,140 C60,150 90,145 105,125 C115,105 115,60 100,40 C85,25 45,25 25,35Z" fill="url(#footGrad)"/>
+    <path d="M55,55 L55,90 M55,75 L75,75 L75,100 M45,115 L85,115" stroke="white" stroke-width="4" fill="none" opacity="0.5"/>
+    <circle cx="55" cy="55" r="5" fill="white" opacity="0.5"/>
+    <circle cx="75" cy="100" r="5" fill="white" opacity="0.5"/>
+    <circle cx="55" cy="90" r="5" fill="white" opacity="0.5"/>
+  </g>
+  
+  <!-- Right footprint (mirrored) -->
+  <g transform="translate(103, 2) scale(-0.22, 0.22)">
+    <ellipse cx="30" cy="15" rx="8" ry="8" fill="url(#footGrad)"/>
+    <ellipse cx="50" cy="8" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="70" cy="5" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="90" cy="8" rx="7" ry="7" fill="url(#footGrad)"/>
+    <ellipse cx="107" cy="18" rx="6" ry="6" fill="url(#footGrad)"/>
+    <path d="M25,35 C15,60 20,120 45,140 C60,150 90,145 105,125 C115,105 115,60 100,40 C85,25 45,25 25,35Z" fill="url(#footGrad)"/>
+    <path d="M55,55 L55,90 M55,75 L75,75 L75,100 M45,115 L85,115" stroke="white" stroke-width="4" fill="none" opacity="0.5"/>
+    <circle cx="55" cy="55" r="5" fill="white" opacity="0.5"/>
+    <circle cx="75" cy="100" r="5" fill="white" opacity="0.5"/>
+    <circle cx="55" cy="90" r="5" fill="white" opacity="0.5"/>
+  </g>
+  
+  <!-- Text: adu -->
+  <text x="105" y="38" font-family="Arial, Helvetica, sans-serif" font-size="36" font-weight="bold" fill="#2D4A4A">adu</text>
+</svg>
