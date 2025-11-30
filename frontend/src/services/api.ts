@@ -3,7 +3,7 @@ import { useAuthStore } from '../store/authStore';
 
 // Create axios instance
 const api: AxiosInstance = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5001',
+  baseURL: process.env.REACT_APP_API_URL || 'https://suvadu-webapp.onrender.com',
   headers: {
     'Content-Type': 'application/json',
   },
